@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-
+    <style type="text/css">
+    .dafare>li.ok::after{content: '\2713'; color: green; font-size: 18px;}
+    .dafare>li::after{content:'\2718' ; color: red; font-size: 18px;}
     </style>
 </head>
 <body>
-    
+    <!-- Intestazione Pagina -->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
         <div title>
@@ -18,45 +19,49 @@
             <img src="" alt="Panorama Londra p2">
             <img src="" alt="Panorama Londra p3">
         </div>
+        <hr>
     </header>
-    <hr>
+    <!-- Corpo Pagina -->
     <main>
-    
+        <!-- sezione spese -->
         <section>
-            <h2></h2>
+            <h2>Le mie spese</h2>
         </section>
-
-        
+        <hr>
+        <!-- sezione cose da fare -->
         <section>
             <h3>Cose da fare</h3>
-            <ul>
+            <ul class="dafare">
                 <li></li>
-                <li></li>
-                <li></li>
+                <li class="ok"></li>
+                <li class="ok"></li>
                 <li></li>
             </ul>
         </section>
         <hr>
-        <section>
+        <!-- sezione info -->
+        <section id="3">
             <h3>Info utili:</h3>
             <ol>
                 <li>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-
-                    </ul>
-                    <ul>
+                        <p style="margin-bottom:0;"></p>
+                        <li>
+                            <strong>999</strong> - Emergenza
+                        </li>
                         <li></li>
                         <li></li>
                     </ul>
                 </li>
                 <li>
+                <p style="margin-bottom:0;"></p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>
+                    <p style="margin-bottom:0;"></p>
                     <ul>
                         <li></li>
                         <li></li>
@@ -66,13 +71,13 @@
         </section>
     
     </main>
-    
+    <!-- Footer Pagina -->
     <footer> 
         <hr>
         <h3>Le foto</h3>
-        <img src="" alt="foto1">
-        <img src="" alt="foto2">
+        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="foto1">
+        <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg
+" alt="foto2">
     </footer>
-
 </body>
 </html>
